@@ -1,0 +1,27 @@
+
+
+p.blue {
+    color: blue;
+}
+
+h1 {
+    color:black;
+    text-align: center;
+    font-size: 300%;
+    font-family: Verdana;
+}
+
+header {
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option{
+    color:black;
+    display: inline-block;
+    font-size: larger;
+    margin-right: 8px;
+}
+
