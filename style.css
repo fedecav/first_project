@@ -50,17 +50,18 @@ header {
 .section {
     background-color: rgb(32, 35, 41);
     background-position: center;
-    padding: 100px;
+    padding-top: 100px;
 }
 
 .square {
-    height: 220px;
-    width: 600px;
+    height: 200px;
+    width: 450px;
     background-color: rgb(5, 1, 1);
     border-color: 2px rgb(5, 1, 1);
     border-radius: 10px;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    margin: 30px;
 }
 
 .script {
@@ -99,11 +100,11 @@ header {
 }
 
 .card-text{
-    width: 60%;
+    width: 300px;
 }
 
 .card-imagine{
-    width: 40%;
+    width: 200px;
 }
 
 .final-part{
@@ -135,14 +136,34 @@ header {
     padding-top: 0.5rem;
 }
 
-.puntino {
+.little-dot {
     padding-right: 0.5rem;
 }
 
 
-.puntino-script{
+.little-dot-script{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0.5rem;
 }
+
+@media screen and (max-width: 1023px) {
+    .square-space {
+        flex-direction: column;
+    }
+    .square {
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto ;
+        width: 500px;
+    }
+  }
+
+  @media screen and (max-width: 667px) {
+    .square {
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
