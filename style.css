@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 h1 {
     color:black;
     text-align: center;
@@ -6,7 +10,7 @@ h1 {
 }
 
 header {
-    padding: 4px;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,4 +133,16 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 0.5rem;
+}
+
+.puntino {
+    padding-right: 0.5rem;
+}
+
+
+.puntino-script{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
 }
