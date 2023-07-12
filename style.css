@@ -19,7 +19,7 @@ header {
     margin-right: 8px;
 }
 
-.area_bottone {
+.area-bottone {
     cursor: pointer;
     border: 2px solid rgb(255, 152, 0);
     border-radius: 10px;
@@ -34,12 +34,12 @@ header {
     color: rgb(255, 152, 0);
 }
 
-.area_bottone:hover {
+.area-bottone:hover {
     background-color: rgb(255, 152, 0);
     color: white;
 }
 
-.riga_vuota{
+.riga-vuota{
     height: 100px;
 }
 
@@ -63,7 +63,7 @@ header {
     color: white;
 }
 
-.square_space {
+.square-space {
     display: flex;
     justify-content: space-evenly
 }
@@ -87,26 +87,18 @@ header {
     justify-content: start;
 }
 
-.puntino_grigio{
-    height: 0.5px;
-    width: 0.5px;
-    margin-right: 0.375px;
-    background: grey;
-    border-radius: 50%;
-}
-
-.scritta_secondary{
+.scritta-secondary{
     display: flex;
     justify-content: center;
     color: grey;
     font-size: larger;
 }
 
-.card_text{
+.card-text{
     width: 60%;
 }
 
-.card_imagine{
+.card-imagine{
     width: 40%;
 }
 
@@ -115,9 +107,26 @@ header {
     background-color: black;
 }
 
+.statistics{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
 .script-finale{
     padding: 8px;
-    text-align: center;
     font-size: larger;
     color: white;
+}
+
+.script-finale-2{
+    padding: 0.2rem;
+    font-size: larger;
+    color: white;
+}
+
+.server{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
 }
