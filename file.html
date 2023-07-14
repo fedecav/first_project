@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+</body>
+<script>
+    // const obj = fetch('characters.json')
+    // const data = obj.readFileSync('characters.json')
+    // const jsonString = data.toString('utf8');
+    // console.log(oggetto[3]);
+    // const oggetto = parse(jsonString);
+    // const body = document.getElementsByTagName ('body') 
+    // body[0].innerHTML = oggetto[3]
+
+    // $.getJSON('characters.json', function(json) {
+    //     console.log(json); // this will show the info it in firebug console
+    // });
+
+
+    fetch("file://characters.json")
+        .then(response => response.json())
+        .then(json => console.log(json));
+</script>
+</html>
